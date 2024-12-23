@@ -4,6 +4,7 @@
     </title>
     <body>
         <link rel="stylesheet" href="style">
+      <div>
         <h1>Calculator</h1>
         <input id="inp"><br><br>
         <button class="button" id="b1" onclick="rudranee(1)">1</button>
@@ -22,8 +23,14 @@
         <button class="button"id="b13" onclick="rudranee(0)">0</button>
         <button class="button">/</button></button>
         <button class="button" onclick="ans()">=</button><br>
+      </div>
         
         <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
             h1{
                 color: chartreuse;
             }
