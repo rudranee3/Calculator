@@ -1,0 +1,355 @@
+<HTML>
+    <title>
+        
+    </title>
+    <body>
+        <link rel="stylesheet" href="style">
+        <h1>Calculator</h1>
+        <input id="inp"><br><br>
+        <button class="button" id="b1" onclick="rudranee(1)">1</button>
+        <button class="button" id="b2" onclick="rudranee(2)">2 </button>
+        <button class="button" id="b3" onclick="rudranee(3)">3</button>    
+        <button class="button" id="b4" onclick="rudranee('+')">+</button><br>
+        <button class="button" id="b5" onclick="rudranee(4)">4</button>
+        <button class="button"id="b6" onclick="rudranee(5)">5</button>
+        <button class="button"id="b7" onclick="rudranee(6)">6</button>
+        <button class="button"id="b8" onclick="rudranee('-')">-</button><br>      
+        <button class="button"id="b9" onclick="rudranee(8)">7</button>
+        <button class="button" onclick="rudranee(9)">9</button>
+        <button class="button"id="b11" onclick="rudranee(8)">8</button>
+        <button class="button" id="b4" onclick="rudranee('+')">x</button><br>
+        <button class="button" onclick="rudranee1('clr')">clr</button>
+        <button class="button"id="b13" onclick="rudranee(0)">0</button>
+        <button class="button">/</button></button>
+        <button class="button" onclick="ans()">=</button><br>
+        
+        <style>
+            h1{
+                color: chartreuse;
+            }
+
+            
+            button{
+                border: none;
+                height: 40px;
+                width: 40px;
+            }
+            button:hover{
+                background-color: rgb(203, 209, 24);
+                transition: 0.1s;
+            }
+            button:active{
+                background-color: rgb(233, 94, 35);
+                transition: 0.1s;
+            }
+        </style>
+    <script>
+        
+
+
+        function rudranee(v){
+            document.getElementById("inp").value=document.getElementById("inp").value+v
+
+        }
+
+        function rudranee1(){
+            document.getElementById("inp").value=""
+
+        }
+        function ans(){
+            var a= eval(document.getElementById("inp").value)
+            document.getElementById("inp").value=a
+
+        }
+
+        // function a(){
+        //     document.getElementById("button").style.cssText="background-color:pink;"
+        // }
+    </script>
+
+    </body>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
